@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<script type="text/javascript" src="../js/importJs.js"></script>
+  <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+.selcls { 
+        margin-left: 446px;
+    margin-top: 38px;
+    width: 208px;
+    padding: 9px; 
+    border: solid 1px #517B97; 
+    outline: 0; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CAD9E3), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+
+    } 
+
+element.style {
+    background-color: #243a51;
+    
+}
+
+.sidenav {
+    width: 235px;
+    position: absolute;
+    /* z-index: 1; */
+    top: -1px;
+    /* left: 0%; */
+    /* overflow-x: hidden; */
+    padding-top: 13px;
+    height: 617px;
+    margin-top: 65px;
+    background-color: #f5f0f0;
+}
+
+.sidenav div div a {
+    padding: 5% 64% 5% 23%;
+    text-decoration: none;
+    font-size: 170%;
+    color: #818181;
+    display: block;
+    margin-top:5%;
+}
+
+.sidenav div div:hover {
+    background-color: #c4d6dc;
+    border-radius: 8%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+
+.main {
+    margin-left: 10%; /* Same as the width of the sidenav */
+}
+#a{
+  margin-top: -9%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 1%;}
+  .sidenav a {font-size: 170%;}
+}
+
+
+        .js .input-file-container {
+  position: relative;
+  width: 225px;
+}
+.js .input-file-trigger {
+  display: block;
+  padding: 14px 45px;
+  background: #39D2B4;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  padding: 14px 0;
+  opacity: 0;
+  cursor: pointer;
+}
+ 
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #34495E;
+  color: #39D2B4;
+}
+ 
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.js .file-return:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+    </style>
+ </head>
+<body>
+<ul class="nav nav-pills nav-stacked" >
+  <li role="presentation" class="active">
+  <a style="    background-color: #243a51; height: 62px;     width: 1326px;" href="#"  ><div style="    font-size: 187%; margin-top: 0.4%; font-family: Adobe Garamond Pro;">Home</div></a></li> </ul>
+</ul>
+<div class="sidenav">
+<div id="a">
+ <div id="n"><a href="trans.html" >Translate</a></div>
+  <div><a href="Translated.html" >Translated</a></div>
+ <div><a href="import.html" style="font-style: bold; font-size: 170%; background-color: #c4d6dc; border-radius: 8%; height: 10%; margin-top: 5%;">Import</a></div>
+ <div><a href="export.html" >Export</a></div> 
+</div>
+</div>
+ 
+
+
+<div class="container" style="  margin-top: 225px;">
+
+ <div class="row" style="font-family: aria; font-style: bold; font-size: 24px; margin-top: -112px; margin-bottom: 19px;"> <div class="col-sm-4" style="    margin-left: 242px;
+    position: relative;">
+
+  <h3 style="    font-size: 41px;">Comment</h3> <p>Comment_not_found : No comments available </p>
+<p> Invitation_sent : Invitation sent </p>
+<p> Error_request : Error request</p>
+    </div>
+    <div class="col-sm-4"  style="    margin-left: 138px;
+    position: relative;">
+    
+    <h3 style="   font-size: 41px; margin-bottom: 38px; ">Article</h3>
+<p> Error_request : Error request</p>
+<p> Invitation_sent : Invitation sent </p>
+<p> Like : Like</p>
+<p> Dont_like : I dislike</p>
+    </div>
+  </div>
+</div>
+
+<div class="input-file-container" style="    margin-left: 619px;
+    margin-top: 36px; height: 56px;
+    width: 246px;
+    font-family: bold; border-radius: 5px;">
+
+  <input class="input-file" id="mySelect" type="file" onchange="myFunction();"  >
+  <label for="my-file" class="input-file-trigger" tabindex="0" style="    height: 57px; border-radius: 10px; padding: 16px 62px; font-size: 17px;">Import translate</label> </div>
+<p class="file-return"></p>
+</body>
+</html>

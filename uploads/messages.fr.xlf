@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext" target-language="fr">
+        <body>
+            <trans-unit id="22" approved="yes">
+                <source>ARTICLE.TEMPLATE.CANCEL</source>
+                <target>Annuler</target>
+            </trans-unit>
+            <trans-unit id="27" approved="yes">
+                <source>ARTICLE.TEMPLATE.ARTICLE_TITLE</source>
+                <target>Titre d'article</target>
+            </trans-unit>
+            <trans-unit id="28" approved="yes">
+                <source>ARTICLE.TEMPLATE.EXPRESS_YOURSELF</source>
+                <target>Exprimez-vous</target>
+            </trans-unit>
+            <trans-unit id="31" approved="yes">
+                <source>ARTICLE.TEMPLATE.DRAFT</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="32" approved="yes">
+                <source>ARTICLE.TEMPLATE.OVERVIEW</source>
+                <target>Aperçu</target>
+            </trans-unit>
+            <trans-unit id="33" approved="yes">
+                <source>COMMENT.TEMPLATE.SUPPRIMER</source>
+                <target>Supprimer</target>
+            </trans-unit>
+            <trans-unit id="38" approved="yes">
+                <source>ARTICLE.TEMPLATE.REMOVE</source>
+                <target>Supprimer</target>
+            </trans-unit>
+            <trans-unit id="43" approved="yes">
+                <source>ARTICLE.TEMPLATE.MYARTICLE</source>
+                <target>Mes articles</target>
+            </trans-unit>
+            <trans-unit id="44" approved="yes">
+                <source>ARTICLE.TEMPLATE.FAVORITE</source>
+                <target>Favoris</target>
+            </trans-unit>
+            <trans-unit id="45" approved="yes">
+                <source>ARTICLE.TEMPLATE.UNFAVORITE</source>
+                <target>Retirer des Favoris</target>  
+            </trans-unit>
+            <trans-unit id="46" approved="yes">
+                <source>ARTICLE.TEMPLATE.VIEW_MORE</source>
+                <target>Afficher plus</target>
+            </trans-unit>
+            <trans-unit id="47" approved="yes">
+                <source>ARTICLE.TEMPLATE.LAST_ARTICLE</source>
+                <target>Derniers articles</target>
+            </trans-unit>
+            <trans-unit id="48" approved="yes">
+                <source>ARTICLE.TEMPLATE.NO_ARTICLE</source>
+                <target>Pas d'article disponible</target>
+            </trans-unit>
+            <trans-unit id="50" approved="yes">
+                <source>ARTICLE.TEMPLATE.PLUS</source>
+                <target>PLUS</target>
+            </trans-unit>
+            <trans-unit id="51" approved="yes">
+                <source>ARTICLE.TEMPLATE.WELCOM</source>
+                <target>Bienvenue à</target> 
+            </trans-unit>
+            <trans-unit id="52" approved="yes">
+                <source>ARTICLE.TEMPLATE.CREATION_ARTICLE</source>
+                <target>Nouvel article </target>     <!--OLD : Creation d'article -->
+            </trans-unit>
+            <trans-unit id="53" approved="yes">
+                <source>ARTICLE.TEMPLATE.What_is_the_main_place_of_your_article</source>
+                <target>Quel est le lieu principal de votre article?</target>
+            </trans-unit>
+            <trans-unit id="54" approved="yes">
+                <source>ARTICLE.TEMPLATE.Part_of_which_trip</source>
+                <target>Fait partie de quel voyage?</target>  <!--Tu fait partie de quel voyage?/ De quel voyage fait-tu partie? ... AME : pas le meme sens-->
+            </trans-unit>
+            <trans-unit id="57" approved="yes">
+                <source>ARTICLE.TEMPLATE.Upload_photos</source>
+                <target>Télécharger des photos:</target>
+            </trans-unit>
+            <trans-unit id="59" approved="yes">
+                <source>ARTICLE.TEMPLATE.Autres</source>
+                <target>Autres</target>
+            </trans-unit>
+            <trans-unit id="62" approved="yes">
+                <source>POPULAR.TEMPLATE.READ_MORE</source>
+                <target>Lire la suite</target>
+            </trans-unit>
+            <trans-unit id="63" approved="yes">
+                <source>ARTICLE.TEMPLATE.ADD_NEW_ARTICLE</source>
+                <target>a ajouté un nouveau article</target>
+            </trans-unit>
+            <trans-unit id="64" approved="yes">
+                <source>ARTICLE.TEMPLATE.PRINCIPAL</source>
+                <target>Principal</target>
+            </trans-unit>
+            <!--NEW-->
+            <trans-unit id="65" approved="yes">
+                <source>ARTICLE.JSON.TITLEANDCONTENTAREEMPTY</source>
+                <target>Veuillez remplir les champs du titre et contenu</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

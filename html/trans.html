@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+.table-responsive {
+    margin-left: 25px;
+    min-height: .01px;
+    overflow-x: auto;
+    margin-top: 10px;
+    width: 980px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin-left: 1250px;
+}
+element.style {
+    background-color: #243a51;
+    
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    width: 235px;
+    position: absolute;
+    /* z-index: 1; */
+    top: -1px;
+    /* left: 0%; */
+    /* overflow-x: hidden; */
+    padding-top: 13px;
+    height: 617px;
+    margin-top: 65px;
+    background-color: #f5f0f0;
+}
+
+.sidenav div div a {
+    padding: 5% 64% 5% 23%;
+    text-decoration: none;
+    font-size: 170%;
+    color: #818181;
+    display: block;
+    margin-top:5%;
+}
+
+.sidenav div div:hover {
+    background-color: #c4d6dc;
+    border-radius: 8%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+
+.main {
+    margin-left: 10%; /* Same as the width of the sidenav */
+}
+#a{
+  margin-top: -9%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 1%;}
+  .sidenav a {font-size: 170%;}
+}
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script type="text/javascript" src="../js/transJs.js"></script>
+</head>
+<body onload="load('1' , '6' , '1')">
+
+<ul class="nav nav-pills nav-stacked" >
+  <li role="presentation" class="active">
+  <a style="    background-color: #243a51; height: 62px; width: 1326px;" href="#"  ><div style="    font-size: 187%; margin-top: 0.4%; font-family: Adobe Garamond Pro;">Home</div></a></li> </ul>
+<div class="sidenav">
+<div id="a">
+ <div id="n"><a href="trans.html
+ " style="font-style: bold; font-size: 170%; background-color: #c4d6dc; border-radius: 8%; height: 10%; margin-top: 5%;">Translate</a></div> 
+ <div><a href="Translated.html">Translated</a></div>
+ <div><a href="import.html">Import</a></div>
+ <div><a href="export.html">Export</a></div> 
+</div>
+</div>
+
+<h3 style="font-size: 24px; margin-left: 557px; margin-top: 15px; position: absolute; font-size: 52px; margin-bottom: 15px">List translate</h3>
+
+    <form class="form-horizontal" style="margin-top: -21%; margin-left: -7%;">
+  <div class="table-responsive" style="margin-top: 142px;margin-left: 352px;">
+    <table class="table table-bordered table-striped table-highlight" id="loop" style="margin-left: 0%; margin-top: 22%;">
+      <thead  style="    height: 51px;" > 
+        <th style="width: 14%; padding: 15px 36px;">Contents</th> 
+        <th style=" width: 29%; padding: 15px 36px;">Traduction Francais</th>
+        <th style=" width: 29%; padding: 15px 36px;">Traduction Anglais</th>
+        <th style=" width: 29%; padding: 15px 36px;">Traduction Espagnol</th>
+      </thead>
+      <tbody id="row" ></tbody>
+    </table>  
+  </div>          
+  <button type="button" class="btn btn-info">Translate</button>
+
+<nav aria-label="Page navigation" style="    margin-left: 53%; margin-top: -2%;">
+  <ul class="pagination">
+    <li>
+      <a id='Previous-page' href="javaScript:void(0)" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+</form>
+</body>
+</html>
